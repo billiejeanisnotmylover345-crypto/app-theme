@@ -1,0 +1,38 @@
+{
+  "name": "Imperial Machina",
+  "tagline": "Order • Precision • Power",
+  "version": "1.0.0",
+  "platform": "Android",
+  "colors": {
+    "background": "#090910",
+    "surface": "#171126",
+    "surfaceRaised": "#21172D",
+    "royalPurple": "#7546B8",
+    "arcaneCyan": "#36E6E0",
+    "antiqueGold": "#C69A48",
+    "burnishedBronze": "#704A2C",
+    "ivory": "#E9DFC9",
+    "muted": "#9B91A5"
+  },
+  "typography": {
+    "display": "Cinzel",
+    "body": "Inter",
+    "displayFallback": "serif",
+    "bodyFallback": "sans-serif"
+  },
+  "launcher": {
+    "grid": "5x6",
+    "iconScale": 0.9,
+    "labelVisibility": "hidden",
+    "dockCount": 4,
+    "suggestedDock": ["Phone", "Messages", "Browser", "Camera"],
+    "widgetStyle": "compact dark glass with antique-gold rules"
+  },
+  "wallpaper": {
+    "file": "wallpapers/imperial-machina.svg",
+    "width": 1440,
+    "height": 3200,
+    "fit": "cover"
+  },
+  "iconSheet": "icons/imperial-machina-icons.svg"
+}
