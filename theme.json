@@ -1,31 +1,48 @@
 {
   "name": "Imperial Machina",
-  "version": "1.0.0",
-  "platform": "Android",
   "tagline": "Order • Precision • Power",
+  "version": "1.1.0",
+  "targetDevice": "Infinix Hot 50i",
+  "display": {
+    "width": 720,
+    "height": 1600,
+    "aspectRatio": "9:20",
+    "safeTop": 150,
+    "safeBottom": 120
+  },
+  "software": {
+    "shippingOS": "Android 14",
+    "interface": "XOS 14.5"
+  },
   "colors": {
     "background": "#090910",
     "surface": "#171126",
+    "surfaceRaised": "#21172D",
     "royalPurple": "#7546B8",
     "arcaneCyan": "#36E6E0",
     "antiqueGold": "#C69A48",
-    "bronze": "#704A2C",
-    "ivory": "#E9DFC9"
+    "burnishedBronze": "#704A2C",
+    "ivory": "#E9DFC9",
+    "muted": "#9B91A5"
   },
   "typography": {
     "display": "Cinzel",
-    "body": "Inter"
+    "body": "Inter",
+    "displayFallback": "serif",
+    "bodyFallback": "sans-serif"
   },
-  "launcher": {
-    "grid": "5x6",
-    "labels": "hidden",
+  "home": {
+    "grid": "4x6 or 5x6",
+    "labels": "hidden if supported",
     "dock": [
       "Phone",
       "Messages",
       "Browser",
       "Camera"
-    ]
+    ],
+    "widgetDensity": "low"
   },
-  "wallpaper": "wallpapers/imperial-machina.svg",
-  "icons": "icons/imperial-machina-icons.svg"
+  "wallpaper": "wallpapers/hot-50i-imperial-machina.svg",
+  "iconSheet": "icons/imperial-machina-icons.svg",
+  "note": "Artwork and configuration only; not an installable XTheme package or icon-pack APK."
 }

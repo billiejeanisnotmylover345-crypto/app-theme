@@ -1,27 +1,24 @@
 # IMPERIAL MACHINA
-### Royal × Steampunk × Cyberpunk — Android Theme Kit
+### Royal × Steampunk × Cyberpunk — Infinix Hot 50i Edition
 
-A dark imperial interface combining antique brass, gothic architecture, precision machinery and restrained neon.
+A dark imperial interface with antique brass, gothic machinery and restrained neon, tailored to the Infinix Hot 50i.
 
-## Palette
-- Obsidian `#090910`
-- Imperial violet `#7546B8`
-- Arcane cyan `#36E6E0`
-- Antique gold `#C69A48`
-- Burnished bronze `#704A2C`
-- Ivory `#E9DFC9`
+## Device target
+- Infinix Hot 50i
+- 720 × 1600 portrait display (20:9)
+- Android 14 / XOS 14.5 shipping software
 
 ## Included
-- `wallpapers/imperial-machina.svg` — 1440 × 3200 portrait wallpaper
-- `icons/imperial-machina-icons.svg` — 12-symbol reference sheet
-- `theme.json` — design tokens and launcher layout
-- `ANDROID-SETUP.md` — Android setup guide
+- `wallpapers/hot-50i-imperial-machina.svg` — 720 × 1600 device-targeted wallpaper
+- `wallpapers/imperial-machina.svg` — original 1440 × 3200 master artwork
+- `icons/imperial-machina-icons.svg` — 12-symbol icon reference sheet
+- `theme.json` — device-specific design tokens
+- `ANDROID-SETUP.md` — XOS setup instructions and limitations
 
-## Apply it
-This is a theme asset kit, not an installable APK. Android theme formats vary by manufacturer. Follow [ANDROID-SETUP.md](ANDROID-SETUP.md). Automatic app icon replacement requires packaging the artwork into a launcher-compatible icon pack.
+## Apply
+Start with the built-in Themes / XTheme app if available on your firmware, then use the setup guide for wallpaper, launcher, icons and widgets.
 
-## Suggested layout
-5-column grid, hidden labels, four-icon dock (Phone, Messages, Browser, Camera), compact gold/cyan clock widget, and dark translucent surfaces.
+**Important:** this repository contains theme artwork and configuration, not a flashable ROM, XTheme package or installable icon-pack APK. System UI customization depends on XOS and firmware support.
 
-## License
-Personal-use theme artwork.
+## Palette
+Obsidian `#090910` · Imperial violet `#7546B8` · Arcane cyan `#36E6E0` · Antique gold `#C69A48` · Bronze `#704A2C` · Ivory `#E9DFC9`
